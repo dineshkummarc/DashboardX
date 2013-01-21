@@ -11,5 +11,5 @@ change this page to the new design like page as shown below
 
 ![EC OLD PAGE](https://github.com/Dashboard-X/ec-index/raw/master/screenshots/new-page1.jpg)
 
-Thanks
-Dineshkummarc
+Thanks<br/>
+Dineshkummarc/denno-secqtinstien
