@@ -11,5 +11,9 @@ change this page to the new design like page as shown below
 
 ![EC OLD PAGE](https://github.com/Dashboard-X/ec-index/raw/master/screenshots/new-page1.jpg)
 
+the main page is like
+
+![windows7bs4](https://f.cloud.github.com/assets/2188914/175913/b2bad12e-7b60-11e2-802c-50009667c59b.png)
+
 Thanks<br/>
 Dineshkummarc/denno-secqtinstien
