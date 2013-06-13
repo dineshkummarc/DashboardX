@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script class="jsbin" src="jquery-1.9.0.min.js"></script>
+<meta charset=utf-8 />
+    <title>Display a Counter</title>
+    <style type="text/css">
+        #displayCounter{
+        font-size:42px;
+        font-family:Georgia;
+        }
+    </style>
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+   <script type="text/javascript">
+        $(function() {
+            var cnt = 0;
+            var counter = setInterval(function() {
+                if (cnt < 20)
+				{
+                    if(cnt == 1)
+					$('#displayCounter').html(cnt + " - process1");
+                    if(cnt == 2)
+					$('#displayCounter').html(cnt + " - process2");
+					if(cnt == 3)
+					$('#displayCounter').html(cnt + " - process3");
+					if(cnt == 4)
+					$('#displayCounter').html(cnt + " - process4");
+					if(cnt == 5)
+					$('#displayCounter').html(cnt + " - process5");
+					if(cnt == 6)
+					$('#displayCounter').html(cnt + " - process6");
+					if(cnt == 7)
+					$('#displayCounter').html(cnt + " - process7");
+					if(cnt == 8)
+					$('#displayCounter').html(cnt + " - process8");
+					if(cnt == 9)
+					$('#displayCounter').html(cnt + " - process9");
+					if(cnt == 10)
+					$('#displayCounter').html(cnt + " - process10");
+					if(cnt == 11)
+					$('#displayCounter').html(cnt + " - process11");
+					if(cnt == 12)
+					$('#displayCounter').html(cnt + " - process12");
+					if(cnt == 13)
+					$('#displayCounter').html(cnt + " - process13");
+					if(cnt == 14)
+					$('#displayCounter').html(cnt + " - process14");
+					if(cnt == 15)
+					$('#displayCounter').html(cnt + " - process15");
+					if(cnt == 16)
+					$('#displayCounter').html(cnt + " - process16");
+					if(cnt == 17)
+					$('#displayCounter').html(cnt + " - process17");
+					if(cnt == 18)
+					$('#displayCounter').html(cnt + " - process18");
+					if(cnt == 19)
+					$('#displayCounter').html(cnt + " - process19");
+					if(cnt == 20)
+					$('#displayCounter').html(cnt + " - process20");
+                    cnt++;
+                }
+                else {
+                    clearInterval(counter);
+                    $('#displayCounter').html("Timeout!!");
+					window.parent.location = "http://www.google.co.in";
+                }
+            }, 1000);
+        });
+    </script>
+	<script type="text/javascript">
+	if (document.getElementById('hello')) {
+  document.getElementById('hello').innerHTML = 'Hello World - this was inserted using JavaScript';
+}
+</script>
+	
+</head>
+<body>
+    <div id="displayCounter"></div>
+	<div id="hello"></div>
+</body>
+</html>
